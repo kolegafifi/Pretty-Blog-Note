@@ -42,6 +42,7 @@ a {
 	padding: 2em;
 	border-radius: 1.6em;
 	border: 0.1em solid black;
+	box-shadow: 8px 8px 0px 0px $fontmain;
 	&__img {
 		border-radius: 1.6em;
 	}
@@ -67,6 +68,17 @@ a {
 		&__text {
 			font-size: 1.4rem;
 			line-height: 1.8em;
+		}
+		&__author {
+			display: flex;
+			align-items: center;
+			gap: 15px;
+			padding: 1rem 0;
+			font-size: 1.4rem;
+			font-weight: 700;
+			img {
+				width: 30px;
+			}
 		}
 	}
 }
